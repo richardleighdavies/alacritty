@@ -1,0 +1,51 @@
+# Window configuration
+[window]
+# Set the window dimensions to 0 (full screen)
+dimensions = { columns = 0, lines = 0 }
+# Set the window padding
+padding = { x = 10, y = 10 }
+# Set the window startup mode to "Maximized"
+startup_mode = "Maximized"
+# Enable window decorations
+decorations = "full"
+
+# Font configuration
+[font]
+# Set the normal (regular) font
+normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+# Set the bold font
+bold = { family = "Hack Nerd Font Mono", style = "Bold" }
+# Set the italic font
+italic = { family = "Hack Nerd Font Mono", style = "Italic" }
+# Set the font size
+size = 12.0
+
+# Color configuration
+[colors]
+# Set the primary colors
+primary = { background = "#1d1f21", foreground = "#c5c8c6" }
+# Set the cursor colors
+cursor = { text = "#1d1f21", cursor = "#c5c8c6" }
+# Set the normal colors
+normal = { black = "#282a2e", red = "#a54242", green = "#8c9440", yellow = "#de935f", blue = "#5f819d", magenta = "#85678f", cyan = "#5e8d87", white = "#707880" }
+# Set the bright colors
+bright = { black = "#373b41", red = "#cc6666", green = "#b5bd68", yellow = "#f0c674", blue = "#81a2be", magenta = "#b294bb", cyan = "#8abeb7", white = "#c5c8c6" }
+
+# Selection configuration
+[selection]
+# Enable saving selected text to the clipboard
+save_to_clipboard = true
+
+# Cursor configuration
+[cursor]
+# Set the cursor style to "Block"
+style = "Block"
+# Enable unfocused hollow cursor
+unfocused_hollow = true
+
+# Shell configuration
+[shell]
+# Set the shell program to "/bin/bash"
+program = "/bin/bash"
+# Set the command-line arguments for the shell
+args = ["--login"]
